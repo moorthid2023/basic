@@ -68,5 +68,13 @@ header {
     width: 30px; /* Adjust the size of the icons */
     height: 30px; /* Adjust the size of the icons */
 }
+.content{
+    font-weight: normal;
+}
+.content::before{
+    content: "";
+    display: block;
+    margin-bottom: 10px;
+}
 
 
