@@ -17,9 +17,12 @@ function App() {
        </header>
        <main className='flex flex-wrap'>
         <div className="content w-full sm:w-1/2 order-2 sm:order-1">
-          <h1 className='text-3xl text-center sm:text-left p-4 sm:p-6 sm:text-5xl text-[#F57359] font-bold'>Some headings</h1>
+          <h1 className='text-3xl text-center sm:text-left p-4 sm:p-6 sm:text-5xl text-[#F57359] font-bold'>Web Developer</h1>
           <p className='text-lg p-2 sm:p-4'>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, perspiciatis iste! Quod ratione enim tempora, perspiciatis magnam vel corporis harum rerum atque laudantium, optio, consequatur cumque deserunt laborum dolor! Accusantium.
+         <span className='block'>I build websites that are easy to navigate and fun to explore. Let's chat about your online goals!</span>  <br />
+         <span className='block'>Looking for a website that works hard and looks great? I'm your friendly web developer!</span>    <br />
+         <span className='block'>Websites don't have to be complicated! I create user-friendly sites that help your business shine.</span>    <br />
+         <span className='block'>Your online presence matters! Let me craft a website that's as awesome as your business.</span>    <br />
           </p>
         </div>
         <img className='p-2 w-full sm:w-1/2 order-1 sm:order-2' src={bg} alt="" />
